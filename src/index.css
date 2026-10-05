@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: add a `dark` class to a wrapper element (see App.jsx)
+   and every `dark:` utility inside it activates. */
+@custom-variant dark (&:where(.dark, .dark *));
